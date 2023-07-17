@@ -14,6 +14,9 @@
 		F61AF1D82A644D2E00A67364 /* MVVMTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1D72A644D2E00A67364 /* MVVMTestTests.swift */; };
 		F61AF1E22A644D2E00A67364 /* MVVMTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1E12A644D2E00A67364 /* MVVMTestUITests.swift */; };
 		F61AF1E42A644D2E00A67364 /* MVVMTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1E32A644D2E00A67364 /* MVVMTestUITestsLaunchTests.swift */; };
+		F61AF1FB2A65264000A67364 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1FA2A65264000A67364 /* CardView.swift */; };
+		F61AF1FD2A6526D700A67364 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1FC2A6526D700A67364 /* Album.swift */; };
+		F61AF1FF2A65270100A67364 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61AF1FE2A65270100A67364 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F61AF1DD2A644D2E00A67364 /* MVVMTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61AF1E12A644D2E00A67364 /* MVVMTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestUITests.swift; sourceTree = "<group>"; };
 		F61AF1E32A644D2E00A67364 /* MVVMTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F61AF1FA2A65264000A67364 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F61AF1FC2A6526D700A67364 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F61AF1FE2A65270100A67364 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		F61AF1C52A644D2D00A67364 /* MVVMTest */ = {
 			isa = PBXGroup;
 			children = (
+				F61AF1F22A64DD2900A67364 /* ViewModel */,
+				F61AF1F12A64DD2400A67364 /* Model */,
+				F61AF1F02A64DD1900A67364 /* View */,
 				F61AF1C62A644D2D00A67364 /* MVVMTestApp.swift */,
-				F61AF1C82A644D2D00A67364 /* ContentView.swift */,
 				F61AF1CA2A644D2E00A67364 /* Assets.xcassets */,
 				F61AF1CC2A644D2E00A67364 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				F61AF1E32A644D2E00A67364 /* MVVMTestUITestsLaunchTests.swift */,
 			);
 			path = MVVMTestUITests;
+			sourceTree = "<group>";
+		};
+		F61AF1F02A64DD1900A67364 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F61AF1C82A644D2D00A67364 /* ContentView.swift */,
+				F61AF1FA2A65264000A67364 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F61AF1F12A64DD2400A67364 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F61AF1FC2A6526D700A67364 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61AF1F22A64DD2900A67364 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F61AF1FE2A65270100A67364 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,9 @@
 			files = (
 				F61AF1C92A644D2D00A67364 /* ContentView.swift in Sources */,
 				F61AF1C72A644D2D00A67364 /* MVVMTestApp.swift in Sources */,
+				F61AF1FB2A65264000A67364 /* CardView.swift in Sources */,
+				F61AF1FD2A6526D700A67364 /* Album.swift in Sources */,
+				F61AF1FF2A65270100A67364 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
